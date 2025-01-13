@@ -1,0 +1,10 @@
+pytest
+pytest-timeout 
+pylint>=2.13 
+jupyter
+ipython 
+numpy>=1.23.5
+pandas
+matplotlib
+pillow  
+opencv-python-headless
