@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent)) # ChatGPT
 import pytest
-from app.src.question.text_input import DataFetcher
+from src.question.text_input import DataFetcher
 import pandas as pd
 
 

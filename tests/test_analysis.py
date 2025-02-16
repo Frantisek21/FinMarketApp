@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent)) # ChatGPT
 import pytest
-from app.src.question.multi_choice import GarchAnalysis
+from src.question.multi_choice import GarchAnalysis
 import pandas as pd
 import numpy as np
 

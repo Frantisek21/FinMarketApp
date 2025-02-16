@@ -2,8 +2,8 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent)) # ChatGPT
 import pytest
-from app.src.question.text_input import DataFetcher
-from app.src.question.multi_choice import CorrelationAnalysis
+from src.question.text_input import DataFetcher
+from src.question.multi_choice import CorrelationAnalysis
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta

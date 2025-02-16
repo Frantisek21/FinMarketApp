@@ -2,8 +2,8 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent)) # ChatGPT
 import streamlit as st
-from FinMarketApp.src.question.text_input import DataFetcher
-from FinMarketApp.src.question.multi_choice import CorrelationAnalysis, GarchAnalysis
+from src.question.text_input import DataFetcher
+from src.question.multi_choice import CorrelationAnalysis, GarchAnalysis
 
 
 def main():

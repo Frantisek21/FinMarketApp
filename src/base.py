@@ -1,4 +1,4 @@
-from polygon import RESTClient
+from polygon.rest import RESTClient
 from datetime import datetime
 import os
 from dotenv import load_dotenv
