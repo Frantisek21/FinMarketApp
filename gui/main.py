@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parent.parent.parent)) # ChatGPT
+sys.path.append(str(Path(__file__).resolve().parent.parent))  # Add project root to Python path
 import streamlit as st
 from src.question.text_input import DataFetcher
 from src.question.multi_choice import CorrelationAnalysis, GarchAnalysis
