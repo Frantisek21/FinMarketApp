@@ -21,6 +21,10 @@ pip install -r requirements.txt
 
 One can start the application by running the following command in the terminal:
 
+First, create the virtual environemnt python3 -m venv bipyt
+Activate the virtual environment: source bipyt/bin/activate (in windows bipyt\\Scripts\\activate)
+Download the necessary packages pip install jupyter numpy pandas matplotlib pillow pytest together with the additioal requirements.txt
+
 streamlit run FINMARKETAPP/main.py
 
 Then to properly use it:
